@@ -35,7 +35,7 @@ import com.stfalcon.chatkit.R
  */
 abstract class Style protected constructor(
         protected var context: Context,
-        protected var attrs: AttributeSet)
+        protected var attrs: AttributeSet?)
 {
     protected val resources: Resources
         get() = context.resources
