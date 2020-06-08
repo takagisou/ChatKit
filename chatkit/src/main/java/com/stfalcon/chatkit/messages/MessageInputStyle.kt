@@ -21,9 +21,9 @@ package com.stfalcon.chatkit.messages
 import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.drawable.Drawable
-import android.support.annotation.ColorInt
-import android.support.annotation.DrawableRes
-import android.support.v4.graphics.drawable.DrawableCompat
+import androidx.annotation.ColorInt
+import androidx.annotation.DrawableRes
+import androidx.core.graphics.drawable.DrawableCompat
 import android.util.AttributeSet
 import com.stfalcon.chatkit.R
 import com.stfalcon.chatkit.commons.Style
