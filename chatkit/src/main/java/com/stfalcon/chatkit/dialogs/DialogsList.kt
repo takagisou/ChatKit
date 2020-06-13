@@ -33,7 +33,7 @@ import com.stfalcon.chatkit.dialogs.DialogListStyle.Companion.parse
 class DialogsList : RecyclerView {
     private var dialogStyle: DialogListStyle? = null
 
-    constructor(context: Context?) : super(context) {}
+    constructor(context: Context) : super(context) {}
     constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
         parseStyle(context, attrs)
     }

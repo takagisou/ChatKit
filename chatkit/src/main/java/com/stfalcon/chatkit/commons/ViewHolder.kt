@@ -24,6 +24,6 @@ import android.view.View
 /**
  * Base ViewHolder
  */
-abstract class ViewHolder<DATA>(itemView: View?) : RecyclerView.ViewHolder(itemView) {
+abstract class ViewHolder<DATA>(itemView: View) : RecyclerView.ViewHolder(itemView) {
     abstract fun onBind(data: DATA)
 }
