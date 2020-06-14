@@ -3,6 +3,9 @@
 *.ap_
 *.jar
 
+## jitpack
+!gradle/wrapper/gradle-wrapper.jar
+
 # files for the dex VM
 *.dex
 
@@ -20,7 +23,7 @@ android/gen/
 local.properties
 
 
-# Eclipse project files
+# Eclipse project fil
 .classpath
 .project
 .properties
