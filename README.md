@@ -53,7 +53,7 @@ allprojects {
 ```
 
 ```gradle
-implementation 'com.github.takagisou:ChatKit:0.3.5'
+implementation 'com.github.takagisou:ChatKit:0.3.6'
 ```
 
 or Maven:
