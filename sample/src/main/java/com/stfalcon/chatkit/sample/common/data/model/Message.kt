@@ -8,10 +8,10 @@ import java.util.*
  * Created by troy379 on 04.04.17.
  */
 class Message @JvmOverloads constructor(
-        override val id: String,
-        override val user: User,
-        override var text: String?,
-        override var createdAt: Date = Date()) : IMessage, MessageContentType.Image, MessageContentType /*and this one is for custom content type (in this case - voice message)*/ {
+    override val id: String,
+    override val user: User,
+    override var text: String?,
+    override var createdAt: Date = Date()) : IMessage, MessageContentType.Image, MessageContentType /*and this one is for custom content type (in this case - voice message)*/ {
 
     override val imageUrl: String?
         get() = image?.url

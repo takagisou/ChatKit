@@ -29,7 +29,7 @@ interface IMessage {
      *
      * @return the message id
      */
-    val id: String?
+    val id: String
 
     /**
      * Returns message text
@@ -43,12 +43,12 @@ interface IMessage {
      *
      * @return the message author
      */
-    val user: IUser?
+    val user: IUser
 
     /**
      * Returns message creation date
      *
      * @return the message creation date
      */
-    val createdAt: Date?
+    val createdAt: Date
 }

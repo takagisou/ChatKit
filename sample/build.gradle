@@ -2,12 +2,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 30
     defaultConfig {
         applicationId "com.stfalcon.chatkit.sample"
-        minSdkVersion 21
-        targetSdkVersion 29
+        minSdkVersion 23
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
@@ -26,11 +25,10 @@ android {
 }
 
 ext {
-    supportVersion = '27.1.1'
     picassoVersion = '2.5.2'
     circleImageViewVersion = '2.2.0'
     shapeImageViewVersion = '0.9.3'
-    circleindicatorVersion = '2.1.4'
+    circleindicatorVersion = '2.1.6'
     appcompat = '1.1.0'
     cardview = '1.0.0'
     material = '1.1.0'
@@ -66,5 +64,6 @@ dependencies {
 
 }
 repositories {
+    google()
     mavenCentral()
 }
